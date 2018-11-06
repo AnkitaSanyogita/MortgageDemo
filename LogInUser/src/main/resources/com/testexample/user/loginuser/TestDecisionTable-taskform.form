@@ -1,0 +1,32 @@
+
+<form id="1239423658">
+<property name="name" value="TestDecisionTable-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="userVar_age" type="InputTextInteger" id="347376357">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (userVar)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="userVarIn/age"/>
+<property name="outputBinding" value="userVarOut/age"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="userVar_eligible" type="CheckBox" id="1534482739">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;eligible (userVar)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="userVarIn/eligible"/>
+<property name="outputBinding" value="userVarOut/eligible"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="userVar_height" type="InputTextInteger" id="1361404980">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;height (userVar)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="userVarIn/height"/>
+<property name="outputBinding" value="userVarOut/height"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="userVarIn" name="#E9E371" type="dataModelerEntry" outId="userVarOut" value="com.testexample.user.loginuser.UserDetail" id="userVar"/>
+</form>

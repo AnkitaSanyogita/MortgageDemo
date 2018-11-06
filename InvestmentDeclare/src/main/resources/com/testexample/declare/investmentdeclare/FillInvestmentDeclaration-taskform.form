@@ -1,0 +1,28 @@
+
+<form id="647967206">
+<property name="name" value="FillInvestmentDeclaration-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="investment_income_Tax_Relief_Section" type="InputText" id="1187017547">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;income_Tax_Relief_Section (investment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="investmentIn/income_Tax_Relief_Section"/>
+<property name="outputBinding" value="nvestmntOut/income_Tax_Relief_Section"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="investment_investment_category" type="SelectBox" id="1546181660">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;investment_category (investment)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="investmentIn/investment_category"/>
+<property name="outputBinding" value="nvestmntOut/investment_category"/>
+<property name="customFieldType" value="com.expansivegroup.category.selectinvestmentcategory.InvestmentCategoryList"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="investmentIn" name="#FBB767" type="dataModelerEntry" outId="nvestmntOut" value="com.testexample.declare.investmentdeclare.InvestmentDeclare" id="investment"/>
+</form>

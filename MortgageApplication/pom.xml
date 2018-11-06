@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.redhat.bpms.examples</groupId>
+  <artifactId>mortgage</artifactId>
+  <version>1.0.1</version>
+  <name>Mortgage Demo</name>
+  <description>Mortgage application to demo basic features of BPMS 6</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.2.1</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>bpms-m2-repo</id>
+      <name>BPM Suite M2 Repo</name>
+      <url>http://localhost:8080/business-central/maven2/</url>
+    </repository>
+  </repositories>
+</project>

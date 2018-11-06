@@ -1,0 +1,13 @@
+package com.redhat.bpms.examples.mortgage;
+
+import java.lang.Number;
+
+rule "Store Mortgage "
+	dialect "mvel"
+	ruleflow-group "valideStore"
+	no-loop true
+	when
+		appl : Application( validationErrors == "null" )
+	then
+		appl.storeApplication(  );
+end

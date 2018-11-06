@@ -1,0 +1,13 @@
+package com.testexample.declare.investmentdeclare;
+
+import java.lang.Number;
+
+rule "validateDate"
+	dialect "mvel"
+	no-loop true
+	ruleflow-group "validate"
+	when
+		cDate : CompareDate( startDate >= "19-Aug-2018" , endDate <= "26-Aug-2018" )
+	then
+		cDate.setSendMail( true );
+end

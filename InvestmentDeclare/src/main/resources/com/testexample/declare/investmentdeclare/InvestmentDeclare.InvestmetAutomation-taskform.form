@@ -1,0 +1,27 @@
+
+<form id="915528704">
+<property name="name" value="InvestmentDeclare.InvestmetAutomation-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="investVar_endDate" type="InputDate" id="131274177">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;endDate (investVar)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="investVar/endDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="0" name="investVar_startDate" type="InputDate" id="347092756">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;startDate (investVar)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="investVar/startDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="body" value="java.lang.String" id="body"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="from" value="java.lang.String" id="from"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="investVar" value="com.testexample.declare.investmentdeclare.CompareDate" id="investVar"/>
+<dataHolder inputId="" name="#FBB767" type="dataModelerEntry" outId="investment" value="com.testexample.declare.investmentdeclare.InvestmentDeclare" id="investment"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="subject" value="java.lang.String" id="subject"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="to" value="java.lang.String" id="to"/>
+</form>
